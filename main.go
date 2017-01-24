@@ -35,7 +35,7 @@ func init()  {
 	date = flag.String("date", "2017-01-25", "please input when to go")
 	page = flag.String("page", "1", "please input search page")
 	state = flag.Int("state", 1,"please choose which begin station")
-	t = flag.Int("time", 0,"please choose which begin station")
+	t = flag.Int("time", 0,"please choose which begin time range")
 	flag.Parse()
 }
 
